@@ -1,0 +1,12 @@
+{
+  "name": "input_from_human.js",
+  "version": "1.0.0",
+  "description": "example for using inputsync",
+  "main": "input_from_human.js",
+  "scripts": {
+    "start": "node input_from_human.js", 
+    "test": "node input_from_human.js"
+  },
+  "author": "rishav1999",
+  "license": "ISC"
+}
