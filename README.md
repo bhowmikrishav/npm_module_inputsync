@@ -18,7 +18,7 @@ To take command line input
 const name = await InputSync.getline("Your Name : ")
 console.log( "Your name is : " + name )
 
-//best practice with error handling 
+//best practice with error handling
 try{
   const name_withoutErr = await InputSync.getline("Your Name : ")
   //if no error in line above
@@ -27,7 +27,7 @@ try{
   console.error(e)
 }
 ```
-Using `Promise.prototype.then()`
+### Using `Promise.prototype.then()`
 ```
 InputSync.getline("Your favorite city : ").then( (input) => {
   console.log( "Your favorite city : " + input )
@@ -41,7 +41,7 @@ InputSync.getline("Your favorite city : ").then( (input) => {
 InputSync.getline(question)
 
 > `question` [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type)
-  
+
 > Returns [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ## How to Contribute
@@ -49,5 +49,5 @@ InputSync.getline(question)
 Email me at : <b19kiit@gmail.com>
 
   Subject : Contribute to npm package inputsync
-  
+
   Body : Describe why & how would you like you contribute
