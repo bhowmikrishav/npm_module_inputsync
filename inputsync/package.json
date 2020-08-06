@@ -1,0 +1,11 @@
+{
+  "name": "inputsync",
+  "version": "1.0.2",
+  "description": "Take commandline input with Promise return",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rishav1999",
+  "license": "ISC"
+}
