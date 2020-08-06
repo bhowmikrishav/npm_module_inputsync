@@ -5,6 +5,7 @@ npm package to take command line inputs with Promise return
 ```
 $ npm i inputsync
 ```
+[npm package link](https://www.npmjs.com/package/inputsync)
 
 ## How to use
 Include npm Package `inputsync` in you JS file
