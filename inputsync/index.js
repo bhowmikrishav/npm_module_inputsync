@@ -1,11 +1,11 @@
-const readline = require("readline"); //readline is inbuilt package of Node
+const readline = require("readline");
 
-exports.InputSync = async (question)=>{ //mainfuntion for input, Parameters ( question : a string which is printed in the commandline before taking the input from keyboard)
+exports.getline = async (question)=>{
   const r = readline.createInterface({
-      input: process.stdin,  //assigining input stream
-      output: process.stdout //assigining out stream, if required later on
+      input: process.stdin,
+      output: process.stdout
   });
-  return new Promise((resolve, reject) => { //returning Promise Object
+  return new Promise((resolve, reject) => {
     try {
       if(typeof question != 'string'){
         throw Error("1st Parameter 'question' should be type String")
